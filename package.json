@@ -1,0 +1,39 @@
+{
+  "name": "koa2",
+  "version": "1.0.0",
+  "description": "node-koa2学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --format 'node_modules/eslint-friendly-formatter' app.js",
+    "lint": "eslint --ext app.js",
+    "fix": "eslint --fix app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CGerAJ@github.com/CGerAJ/NODEJS-Koa2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "koa2"
+  ],
+  "author": "CGerAJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CGerAJ/NODEJS-Koa2/issues"
+  },
+  "homepage": "https://github.com/CGerAJ/NODEJS-Koa2#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "nodemon": "^1.12.4"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

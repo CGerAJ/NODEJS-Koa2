@@ -1,0 +1,55 @@
+{
+  "extends": "standard",
+  "env": {
+    //环境定义了预定义的全局变量。更多在官网查看
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "amd": true,
+    "es6": true
+  },
+  "parserOptions": {
+    // ECMAScript 版本
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    //module
+    // 想使用的额外的语言特性:
+    "ecmaFeatures": {
+      // 允许在全局作用域下使用 return 语句
+      "globalReturn": true,
+      // impliedStric
+      "impliedStrict": true,
+      // 启用 JSX
+      "jsx": false
+    }
+  },
+  "rules": {
+    "no-new": "off",
+    "arrow-parens": 0,
+    "no-console": 0,
+    "semi": [
+      "error",
+      "never"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "arrow-spacing": 0,
+    "generator-star-spacing": 0,
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ],
+    "no-empty-function": [
+      "error",
+      {
+        "allow": [
+          "arrowFunctions",
+          "functions",
+          "methods"
+        ]
+      }
+    ]
+  }
+}
