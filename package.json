@@ -24,8 +24,12 @@
   },
   "homepage": "https://github.com/CGerAJ/NODEJS-Koa2#readme",
   "dependencies": {
+    "ip": "^1.1.5",
     "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "log4js": "^2.3.12",
     "nodemon": "^1.12.4"
   },
   "devDependencies": {
