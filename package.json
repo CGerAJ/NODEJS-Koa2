@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint --format 'node_modules/eslint-friendly-formatter' app.js",
     "lint": "eslint --ext app.js",
-    "fix": "eslint --fix app.js"
+    "fix": "eslint --fix app.js",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
