@@ -1,12 +1,12 @@
 FROM daocloud.io/node:0.10-onbuild
 
-RUN mkdir -p /usr/src/node
+MAINTAINER 244869962@qq.com
 
-WORKDIR /usr/src/node
+ENV HTTP_PORT 3000
 
-COPY . /usr/src/node
+COPY . /app
 
-WORKDIR /usr/src/node/website
+WORKDIR /app
 
 EXPOSE 3000
 
