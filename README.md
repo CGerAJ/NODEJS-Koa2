@@ -16,6 +16,7 @@
 - 找到一个更好的node-koa2目录组织
 - 未增加view层 是想前后分离反接口给前台
 - 本地开发发现跨域问题 vue-cli配置问题
+- 低级错误 dockerfile 文件首字母必须大写 触发daocloud 自动构建任务 dockerfile无法识别
 
 ```
 .

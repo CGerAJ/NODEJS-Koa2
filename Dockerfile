@@ -1,4 +1,4 @@
-FROM daocloud.io/node:0.10-onbuild
+FROM node:latest
 
 MAINTAINER 244869962@qq.com
 
