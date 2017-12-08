@@ -27,8 +27,10 @@
     "ip": "^1.1.5",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
+    "koa-jwt": "^3.3.0",
     "koa-router": "^7.3.0",
     "koa-static": "^4.0.2",
+    "koa2-cors": "^2.0.5",
     "log4js": "^2.3.12",
     "nodemon": "^1.12.4"
   },

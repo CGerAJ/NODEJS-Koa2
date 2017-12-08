@@ -9,7 +9,7 @@ module.exports = (app) => {
 
   router.get('/login', HomeController.login)
 
-  router.get('/register', HomeController.register)
+  router.post('/register', HomeController.register)
 
   app.use(router.routes())
     .use(router.allowedMethods())
