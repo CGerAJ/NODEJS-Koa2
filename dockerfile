@@ -4,7 +4,7 @@ RUN mkdir -p /usr/src/node
 
 WORKDIR /usr/src/node
 
-COPY . /user/src/node
+COPY . /usr/src/node
 
 WORKDIR /usr/src/node/website
 
