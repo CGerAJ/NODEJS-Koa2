@@ -1,4 +1,4 @@
-FORM node
+FROM daocloud.io/node:0.10-onbuild
 
 RUN mkdir -p /usr/src/node
 
