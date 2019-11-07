@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint --format 'node_modules/eslint-friendly-formatter' app.js",
     "lint": "eslint --ext app.js",
-    "fix": "eslint --fix app.js"
+    "fix": "eslint --fix app.js",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,10 @@
     "ip": "^1.1.5",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
+    "koa-jwt": "^3.3.0",
     "koa-router": "^7.3.0",
     "koa-static": "^4.0.2",
+    "koa2-cors": "^2.0.5",
     "log4js": "^2.3.12",
     "nodemon": "^1.12.4"
   },

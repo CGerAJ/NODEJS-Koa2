@@ -17,6 +17,12 @@ module.exports = () => {
           case 500:
             fileName = status
           break
+          case 401:
+            ctx.status = 401;
+            ctx.body = {
+              error: e.originalError ? e.originalError.message : message,
+            }
+            break
           default:
             fileName = 'other'
         }
